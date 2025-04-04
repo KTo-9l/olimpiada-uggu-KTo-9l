@@ -1,6 +1,6 @@
 import math
 
-CYBER_OBSTACLE = False
+CYBER_OBSTACLE = True
 
 def update_speed_and_direction(current_pos, target_pos, current_speed, current_direction, obstacle_distances, max_speed):
     current_x, current_y = current_pos
